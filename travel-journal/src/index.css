@@ -32,3 +32,37 @@ header h1 {
   font-weight: 500;
   font-family: "Special Gothic Expanded One", sans-serif;
 }
+
+.entry {
+
+  margin-left: 40px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.marker {
+  width: 7px;
+  margin-right: 4px;
+}
+
+.country {
+  text-transform: uppercase;
+  margin: 0px 10px 0px 10px
+}
+
+.imgcontainer {
+  height: 168px;
+  width: 125px;
+  flex-shrink: 0;
+  margin-right: 20px;
+
+}
+
+.imgcontainer img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 10px;
+}
